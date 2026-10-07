@@ -1,0 +1,2720 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #082b5c;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #0d47a1;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #1f3a5f;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: white;
+    font-size: 20px;
+}
+
+.about {
+    background-color: white;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #0d47a1;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 15px auto;
+}
+.projects {
+    padding: 60px 80px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 36px;
+    color: #0d47a1;
+    margin-bottom: 35px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.project-card {
+    background-color: white;
+    width: 260px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: #0d47a1;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #082b5c, #0d47a1);
+    color: white;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    max-width: 600px;
+    margin: 0 auto 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #0d47a1;
+    transform: translateY(-4px);
+}
+/* MODERNA POCETNA STRANA */
+
+.hero {
+    background: linear-gradient(135deg, #061b3a, #0d47a1, #1976d2);
+    padding: 80px 8%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-label {
+    color: #64b5f6;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-text h1 {
+    color: white;
+    font-size: 52px;
+    margin: 0 0 15px 0;
+}
+
+.hero .hero-text h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e3f2fd;
+    max-width: 600px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.primary-btn {
+    background-color: white;
+    color: #0d47a1;
+}
+
+.secondary-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+    transform: translateY(-4px);
+}
+
+.secondary-btn:hover {
+    background-color: white;
+    color: #0d47a1;
+}
+
+/* Privremeno mesto za fotografiju */
+
+.hero-photo {
+    flex: 0 0 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-placeholder {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.12);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+.hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-placeholder {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+}
+.photo-placeholder {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+    display: block;
+}
+/* MODERNI TECH KRUG */
+
+.tech-circle {
+    width: 330px;
+    height: 330px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        radial-gradient(circle,
+        rgba(0,212,255,0.20) 0%,
+        rgba(0,119,255,0.10) 45%,
+        rgba(0,0,0,0.08) 70%);
+
+    box-shadow:
+        0 0 30px rgba(0,212,255,0.35),
+        inset 0 0 30px rgba(255,255,255,0.08);
+}
+
+
+/* CENTRALNI AI ČIP */
+
+.tech-chip {
+    width: 125px;
+    height: 125px;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(5,35,80,0.85);
+    border: 2px solid white;
+
+    box-shadow:
+        0 0 25px rgba(0,212,255,0.7);
+
+    animation: pulseAI 2.5s infinite;
+}
+
+.tech-chip span {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.tech-chip small {
+    color: #8eeaff;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+
+/* ORBITE */
+
+.orbit {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.35);
+}
+
+.orbit-1 {
+    width: 230px;
+    height: 230px;
+}
+
+.orbit-2 {
+    width: 285px;
+    height: 285px;
+    border-style: dashed;
+    animation: rotateOrbit 18s linear infinite;
+}
+
+
+/* PLC / IoT / VISION */
+
+.tech-label {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+
+    padding: 7px 13px;
+    border-radius: 20px;
+
+    background: rgba(5,35,80,0.75);
+    border: 1px solid rgba(255,255,255,0.6);
+
+    box-shadow: 0 0 12px rgba(0,212,255,0.4);
+}
+
+.plc {
+    top: 42px;
+    left: 35px;
+}
+
+.iot {
+    top: 70px;
+    right: 25px;
+}
+
+.vision {
+    bottom: 65px;
+    right: 200px;
+}
+
+
+/* ANIMACIJE */
+
+@keyframes rotateOrbit {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulseAI {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(0,212,255,0.5);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 40px rgba(0,212,255,0.9);
+    }
+}
+/* ANIMIRANE TAČKE OKO AI */
+
+.moving-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow:
+        0 0 8px white,
+        0 0 18px #00eaff,
+        0 0 30px #00eaff;
+
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+/* prva tačka */
+.dot1 {
+    animation: orbitDot1 8s linear infinite;
+}
+
+/* druga tačka */
+.dot2 {
+    animation: orbitDot2 11s linear infinite;
+}
+
+/* treća tačka */
+.dot3 {
+    animation: orbitDot3 14s linear infinite;
+}
+
+@keyframes orbitDot1 {
+    from {
+        transform: translate(-50%, -50%)
+                   rotate(0deg)
+                   translateX(190px);
+    }
+    to {
+        transform: translate(-50%, -50%)
+                   rotate(360deg)
+                   translateX(190px);
+    }
+}
+
+@keyframes orbitDot2 {
+    from {
+        transform: translate(-50%, -50%)
+                   rotate(120deg)
+                   translateX(165px);
+    }
+    to {
+        transform: translate(-50%, -50%)
+                   rotate(480deg)
+                   translateX(165px);
+    }
+}
+
+@keyframes orbitDot3 {
+    from {
+        transform: translate(-50%, -50%)
+                   rotate(240deg)
+                   translateX(125px);
+    }
+    to {
+        transform: translate(-50%, -50%)
+                   rotate(600deg)
+                   translateX(125px);
+    }
+}
+/* ANIMIRANE SVETLECE TACKE */
+
+.dot-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+/* PRVA PUTANJA */
+.dot-orbit-1 {
+    width: 230px;
+    height: 230px;
+    margin-left: -115px;
+    margin-top: -115px;
+    animation: dotRotate 8s linear infinite;
+}
+
+/* DRUGA PUTANJA */
+.dot-orbit-2 {
+    width: 285px;
+    height: 285px;
+    margin-left: -142.5px;
+    margin-top: -142.5px;
+    animation: dotRotate 12s linear infinite reverse;
+}
+
+/* TREĆA PUTANJA */
+.dot-orbit-3 {
+    width: 340px;
+    height: 340px;
+    margin-left: -170px;
+    margin-top: -170px;
+    animation: dotRotate 16s linear infinite;
+}
+
+.glow-dot {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+
+    top: -4.5px;
+    left: 50%;
+
+    border-radius: 50%;
+    background: white;
+    box-shadow:
+        0 0 6px white,
+        0 0 12px #00d4ff,
+        0 0 20px #00d4ff;
+}
+
+@keyframes dotRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* PULSIRANJE PLC / IoT / VISION */
+
+.plc {
+    animation: labelGlow 3s ease-in-out infinite;
+}
+
+.iot {
+    animation: labelGlow 3s ease-in-out 1s infinite;
+}
+
+.vision {
+    animation: labelGlow 3s ease-in-out 2s infinite;
+}
+
+@keyframes labelGlow {
+    0%, 70%, 100% {
+        box-shadow:
+            0 0 12px rgba(0, 212, 255, 0.4);
+    }
+
+    85% {
+        box-shadow:
+            0 0 12px rgba(0, 212, 255, 0.8),
+            0 0 25px rgba(0, 212, 255, 0.8),
+            0 0 40px rgba(255, 255, 255, 0.5);
+        transform: scale(1.08);
+    }
+}
+/* AI HEARTBEAT EFEKAT */
+
+.tech-chip {
+    animation: aiPulse 3s ease-in-out infinite;
+}
+
+@keyframes aiPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow:
+            0 0 15px rgba(0, 212, 255, 0.3);
+    }
+
+    50% {
+        transform: scale(1.04);
+        box-shadow:
+            0 0 20px rgba(0, 212, 255, 0.7),
+            0 0 40px rgba(0, 212, 255, 0.35);
+    }
+}
+/* =========================
+   O MENI
+========================= */
+
+.about {
+    padding: 80px 4%;
+    background: #f5f8fc;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+/* LEVA STRANA */
+
+.section-label {
+    color: #087ed8;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.abaut-text {
+    width: 100%;
+    max-width: 480px;
+    text-align: left;
+}
+.about-text h2 {
+    font-size: 46px;
+    color: #062b50;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.about-text p {
+    color: #4c6075;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+
+/* DESNA STRANA */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card {
+    background: white;
+    padding: 24px 22px;
+    min-height: 150px;
+
+    border-radius: 18px;
+    border: 1px solid rgba(0, 150, 255, 0.20);
+
+    box-shadow:
+        0 8px 25px rgba(0, 50, 100, 0.08);
+
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #00bfff;
+
+    box-shadow:
+        0 12px 30px rgba(0, 90, 180, 0.15),
+        0 0 18px rgba(0, 190, 255, 0.20);
+}
+.skills-grid {
+    transform: translateY(55px);
+}
+/* =========================================
+   PROJEKTI
+========================================= */
+
+.projects {
+    position: relative;
+    padding: 110px 8% 130px;
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(0, 212, 255, 0.13),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 10% 90%,
+            rgba(0, 119, 255, 0.10),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #031426 0%,
+            #061d36 50%,
+            #03111f 100%
+        );
+}
+
+
+/* suptilna mreža u pozadini */
+
+.projects::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.025) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,0.025) 1px,
+            transparent 1px
+        );
+
+    background-size: 45px 45px;
+
+    pointer-events: none;
+}
+
+
+/* KONTEJNER */
+
+.projects-container {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+/* NASLOV */
+
+.projects-heading {
+    max-width: 700px;
+    margin-bottom: 55px;
+}
+
+
+.projects-heading .section-label {
+    display: inline-block;
+
+    color: #00d4ff;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+
+.projects-heading h2 {
+    color: white;
+
+    font-size: 52px;
+    line-height: 1.1;
+
+    margin-bottom: 18px;
+}
+
+
+.projects-heading p {
+    color: #9fb2c7;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    max-width: 650px;
+}
+
+
+/* GRID */
+
+.projects-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 24px;
+}
+
+
+/* KARTICA */
+
+.project-card {
+    position: relative;
+
+    min-height: 460px;
+
+    padding: 38px 32px;
+
+    border-radius: 26px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,0.09),
+            rgba(255,255,255,0.025)
+        );
+
+    border: 1px solid
+        rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 25px 60px
+        rgba(0,0,0,0.25);
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* svetlosni efekat */
+
+.project-card::before {
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    right: -80px;
+    top: -80px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(0,212,255,0.18);
+
+    filter: blur(55px);
+
+    transition: 0.4s ease;
+}
+
+
+/* HOVER */
+
+.project-card:hover {
+    transform: translateY(-12px);
+
+    border-color:
+        rgba(0,212,255,0.55);
+
+    box-shadow:
+        0 30px 80px
+        rgba(0,160,255,0.20);
+}
+
+
+.project-card:hover::before {
+    background:
+        rgba(0,212,255,0.32);
+}
+
+
+/* BROJ */
+
+.project-number {
+    position: absolute;
+
+    right: 28px;
+    top: 24px;
+
+    color:
+        rgba(255,255,255,0.18);
+
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+/* IKONICA */
+
+.project-icon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 54px;
+
+    margin-bottom: 30px;
+
+    border-radius: 15px;
+
+    color: #00d4ff;
+
+    font-size: 25px;
+
+    background:
+        rgba(0,212,255,0.10);
+
+    border:
+        1px solid
+        rgba(0,212,255,0.28);
+
+    box-shadow:
+        0 0 25px
+        rgba(0,212,255,0.08);
+}
+
+
+/* KATEGORIJA */
+
+.project-category {
+    display: block;
+
+    margin-bottom: 13px;
+
+    color: #00d4ff;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+
+/* NASLOV KARTICE */
+
+.project-card h3 {
+    color: white;
+
+    font-size: 27px;
+    line-height: 1.25;
+
+    margin-bottom: 20px;
+}
+
+
+.project-card h3 span {
+    display: block;
+
+    color: #b9c8d8;
+
+    font-weight: 400;
+}
+
+
+/* OPIS */
+
+.project-card p {
+    color: #91a5ba;
+
+    font-size: 15px;
+    line-height: 1.75;
+
+    margin-bottom: 28px;
+}
+
+
+/* MINI DIJAGRAM */
+
+.project-flow {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 7px;
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    padding: 15px;
+
+    border-radius: 13px;
+
+    background:
+        rgba(0,0,0,0.16);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.06);
+}
+
+
+.project-flow span {
+    color: #d9f8ff;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+.project-flow i {
+    color: #00d4ff;
+
+    font-style: normal;
+}
+
+
+/* TAGOVI */
+
+.project-footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+.project-footer span {
+    padding: 7px 11px;
+
+    border-radius: 20px;
+
+    color: #9fdff0;
+
+    font-size: 11px;
+
+    background:
+        rgba(0,212,255,0.07);
+
+    border:
+        1px solid
+        rgba(0,212,255,0.16);
+}
+
+
+/* PRVA KARTICA MALO ISTAKNUTA */
+
+.project-card.featured {
+    border-color:
+        rgba(0,212,255,0.30);
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(0,212,255,0.11),
+            rgba(255,255,255,0.035)
+        );
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 950px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        min-height: auto;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .projects {
+        padding:
+            80px 6% 90px;
+    }
+
+    .projects-heading h2 {
+        font-size: 40px;
+    }
+
+    .project-card {
+        padding: 30px 24px;
+    }
+
+}
+/* =========================================
+   PROJECTS - SCROLL REVEAL
+========================================= */
+
+.project-card {
+    opacity: 1;
+    transform: translateY(45px);
+    
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+/* kada kartica uđe u ekran */
+
+.project-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* kartice dolaze jedna za drugom */
+
+.project-card:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+.project-card:nth-child(2) {
+    transition-delay: 0.18s;
+}
+
+.project-card:nth-child(3) {
+    transition-delay: 0.31s;
+}
+
+/* zadržavamo postojeći hover */
+
+.project-card.show:hover {
+    transform: translateY(-12px);
+}
+/* =========================================
+   PROJECT CARDS — SAFE LUX ANIMATION
+========================================= */
+
+.project-card {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+        transform 0.6s cubic-bezier(.2,.8,.2,1),
+        box-shadow 0.6s ease,
+        border-color 0.6s ease;
+}
+
+/* LUX hover */
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(0, 210, 255, 0.65);
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.35),
+        0 0 35px rgba(0, 190, 255, 0.16);
+}
+/* =========================================
+   PROJECTS — PREMIUM BENTO LAYOUT
+========================================= */
+
+.projects-grid {
+    max-width: 1180px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 24px;
+
+    align-items: stretch;
+}
+
+/* SMART VISION — glavna kartica */
+.project-card:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+/* PLC */
+.project-card:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* IoT */
+.project-card:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+/* =========================================
+   PREMIUM CARD LOOK
+========================================= */
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid rgba(73, 207, 255, 0.22);
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(12, 62, 110, 0.72),
+            rgba(5, 25, 55, 0.88)
+        );
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 25px 60px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+    transition:
+        transform 0.45s cubic-bezier(.2,.8,.2,1),
+        box-shadow 0.45s ease,
+        border-color 0.45s ease;
+}
+
+
+/* suptilan svetlosni efekat */
+
+.project-card::before {
+    content: "";
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    top: -100px;
+    right: -80px;
+
+    background: rgba(0, 195, 255, 0.13);
+    filter: blur(60px);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+/* hover */
+
+.project-card:hover {
+    transform: translateY(-8px);
+
+    border-color: rgba(64, 210, 255, 0.65);
+
+    box-shadow:
+        0 30px 75px rgba(0, 0, 0, 0.35),
+        0 0 35px rgba(0, 195, 255, 0.12);
+}
+
+
+/* Glavni Smart Vision projekat malo izraženiji */
+
+.project-card:nth-child(1) {
+    background:
+        radial-gradient(
+            circle at 75% 20%,
+            rgba(0, 200, 255, 0.18),
+            transparent 35%
+        ),
+        linear-gradient(
+            145deg,
+            rgba(10, 73, 126, 0.9),
+            rgba(4, 24, 54, 0.95)
+        );
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 850px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+    .project-card:nth-child(1),
+    .project-card:nth-child(2),
+    .project-card:nth-child(3) {
+        grid-column: 1;
+        grid-row: auto;
+    }
+}
+/* ===== FINALNI BENTO RASPORED PROJEKATA ===== */
+
+.projects-grid {
+    max-width: 1150px;
+    margin: 55px auto 0;
+
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 22px;
+}
+
+/* SMART VISION - velika leva */
+.project-card:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    min-height: 600px;
+}
+
+/* PLC - gore desno */
+.project-card:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 285px;
+}
+
+/* IoT - dole desno */
+.project-card:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    min-height: 285px;
+}
+
+/* sprečava da stari CSS pravi ogromne kartice */
+.project-card {
+    width: 100%;
+    margin: 0;
+}
+
+/* TELEFON */
+@media (max-width: 850px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .project-card:nth-child(1),
+    .project-card:nth-child(2),
+    .project-card:nth-child(3) {
+        grid-column: 1;
+        grid-row: auto;
+        min-height: auto;
+    }
+}
+/* =========================================
+   PROJECTS — FINAL LUX BENTO LAYOUT
+========================================= */
+
+.projects-grid {
+    width: 100% !important;
+    max-width: 1150px !important;
+    margin: 50px auto 0 !important;
+
+    display: grid !important;
+    grid-template-columns: 1.15fr 0.85fr !important;
+    grid-template-rows: 290px 290px !important;
+
+    gap: 22px !important;
+}
+
+
+/* 01 — SMART VISION */
+.projects-grid > .project-card.featured {
+    grid-column: 1 !important;
+    grid-row: 1 / 3 !important;
+
+    width: 100% !important;
+    height: 602px !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+}
+
+
+/* 02 — PLC */
+.projects-grid > .project-card:nth-of-type(2) {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+
+    width: 100% !important;
+    height: 290px !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+}
+
+
+/* 03 — IoT */
+.projects-grid > .project-card:nth-of-type(3) {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+
+    width: 100% !important;
+    height: 290px !important;
+    min-height: 0 !important;
+
+    margin: 0 !important;
+}
+
+
+/* Desne kartice malo kompaktnije */
+.projects-grid > .project-card:nth-of-type(2),
+.projects-grid > .project-card:nth-of-type(3) {
+    padding: 28px 32px !important;
+}
+
+.projects-grid > .project-card:nth-of-type(2) h3,
+.projects-grid > .project-card:nth-of-type(3) h3 {
+    font-size: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+.projects-grid > .project-card:nth-of-type(2) p,
+.projects-grid > .project-card:nth-of-type(3) p {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+   .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    align-items: stretch;
+}
+
+/* Sve tri kartice iste veličine */
+.project-card,
+.project-card.featured {
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    min-height: 480px;
+    height: 480px;
+
+    padding: 32px 28px;
+    border-radius: 28px;
+}
+
+/* Smart Vision više nije dupla kartica */
+.project-card.featured {
+    width: auto;
+}
+
+/* Malo prilagodi naslove */
+.project-card h3 {
+    font-size: 30px;
+    line-height: 1.08;
+}
+
+/* Tekst */
+.project-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card,
+    .project-card.featured {
+        height: auto;
+        min-height: 420px;
+    }
+}
+/* =========================================
+   FINALNI RASPORED PROJEKATA
+========================================= */
+
+.projects .projects-container .projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-rows: 480px !important;
+    gap: 20px !important;
+    align-items: stretch !important;
+}
+
+/* RESETUJ SVE STARE POZICIJE */
+
+.projects .project-card,
+.projects .project-card.featured {
+    position: relative !important;
+
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    height: 480px !important;
+    min-height: 480px !important;
+
+    margin: 0 !important;
+    transform: none !important;
+
+    padding: 32px 26px !important;
+    border-radius: 28px !important;
+}
+
+/* Sve tri kartice moraju ostati u normalnom toku */
+
+.projects .project-card:nth-child(1),
+.projects .project-card:nth-child(2),
+.projects .project-card:nth-child(3) {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+/* NASLOVI */
+
+.projects .project-card h3 {
+    font-size: 28px !important;
+    line-height: 1.1 !important;
+}
+
+/* OPIS */
+
+.projects .project-card p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+
+
+/* TELEFON / TABLET */
+
+@media (max-width: 900px) {
+
+    .projects .projects-container .projects-grid {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: none !important;
+    }
+
+    .projects .project-card,
+    .projects .project-card.featured {
+        height: auto !important;
+        min-height: 420px !important;
+    }
+}
+/* =========================================
+   FINAL PROJECT CARDS FIX
+   ========================================= */
+
+.projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 24px !important;
+    align-items: stretch !important;
+    width: 100% !important;
+}
+
+.projects-grid .project-card,
+.projects-grid .project-card.featured {
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    height: 500px !important;
+    min-height: 500px !important;
+
+    margin: 0 !important;
+    padding: 34px 28px !important;
+
+    border-radius: 28px !important;
+    box-sizing: border-box !important;
+
+    transform: none;
+}
+
+/* zadržavamo Smart Vision kao vizuelno istaknutu,
+   ali NE veću karticu */
+.projects-grid .project-card.featured {
+    border-color: rgba(0, 212, 255, 0.38) !important;
+}
+
+/* hover */
+.projects-grid .project-card:hover,
+.projects-grid .project-card.featured:hover {
+    transform: translateY(-8px) !important;
+}
+
+/* TABLET */
+@media (max-width: 950px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+
+    .projects-grid .project-card,
+    .projects-grid .project-card.featured {
+        height: 480px !important;
+        min-height: 480px !important;
+    }
+}
+
+/* TELEFON */
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .projects-grid .project-card,
+    .projects-grid .project-card.featured {
+        height: auto !important;
+        min-height: 440px !important;
+    }
+}
+/* =========================================
+   PROJECTS — DEFINITIVNI RESET RASPOREDA
+   ========================================= */
+
+#projekti .projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: 500px !important;
+
+    gap: 22px !important;
+
+    width: 100% !important;
+    max-width: 1400px !important;
+
+    margin: 50px auto 0 !important;
+    padding: 0 25px !important;
+
+    box-sizing: border-box !important;
+}
+
+/* SVE TRI KARTICE IDENTIČNE */
+#projekti .projects-grid > .project-card,
+#projekti .projects-grid > .project-card.featured {
+
+    position: relative !important;
+
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    height: 500px !important;
+    min-height: 500px !important;
+    max-height: 500px !important;
+
+    margin: 0 !important;
+
+    transform: none !important;
+
+    box-sizing: border-box !important;
+}
+
+/* REDOSLED */
+#projekti .projects-grid > .project-card:nth-child(1) {
+    grid-column: 1 !important;
+}
+
+#projekti .projects-grid > .project-card:nth-child(2) {
+    grid-column: 2 !important;
+}
+
+#projekti .projects-grid > .project-card:nth-child(3) {
+    grid-column: 3 !important;
+}
+
+/* HOVER */
+#projekti .projects-grid > .project-card:hover {
+    transform: translateY(-8px) !important;
+}
+
+/* TABLET */
+@media (max-width: 950px) {
+
+    #projekti .projects-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: auto !important;
+    }
+
+    #projekti .projects-grid > .project-card:nth-child(1),
+    #projekti .projects-grid > .project-card:nth-child(2),
+    #projekti .projects-grid > .project-card:nth-child(3) {
+        grid-column: auto !important;
+    }
+}
+
+/* TELEFON */
+@media (max-width: 650px) {
+
+    #projekti .projects-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    #projekti .projects-grid > .project-card,
+    #projekti .projects-grid > .project-card.featured {
+        height: auto !important;
+        min-height: 450px !important;
+        max-height: none !important;
+    }
+}
+/* LAPTOP — TRI KARTICE U JEDNOM REDU */
+@media (min-width: 701px) {
+
+    #projekti .projects-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 18px !important;
+    }
+
+    #projekti .projects-grid > .project-card,
+    #projekti .projects-grid > .project-card.featured {
+        grid-column: auto !important;
+
+        width: 100% !important;
+        height: 500px !important;
+        min-height: 500px !important;
+        max-height: 500px !important;
+
+        padding: 30px 22px !important;
+    }
+}
+
+/* TELEFON */
+@media (max-width: 700px) {
+
+    #projekti .projects-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    #projekti .projects-grid > .project-card,
+    #projekti .projects-grid > .project-card.featured {
+        height: auto !important;
+        min-height: 440px !important;
+        max-height: none !important;
+    }
+}
+/* ==================================================
+   PROJECT CARDS — PREMIUM FINAL LOOK
+   NE MENJA RASPORED KARTICA
+   ================================================== */
+
+/* SAME KARTICE */
+#projekti .project-card {
+    position: relative;
+    overflow: hidden;
+
+    padding: 32px 24px !important;
+
+    border: 1px solid rgba(0, 212, 255, 0.22);
+    border-radius: 30px !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(0, 212, 255, 0.08),
+            rgba(255, 255, 255, 0.025)
+        );
+
+    box-shadow:
+        0 20px 45px rgba(0, 0, 0, 0.20),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        background 0.35s ease;
+}
+
+
+/* DISKRETAN GLOW U GORNJEM DELU */
+#projekti .project-card::before {
+    content: "";
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    top: -120px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: rgba(0, 212, 255, 0.16);
+    filter: blur(70px);
+
+    border-radius: 50%;
+
+    pointer-events: none;
+}
+
+
+/* HOVER — KARTICA SE BLAGO PODIŽE */
+#projekti .project-card:hover {
+    transform: translateY(-10px) !important;
+
+    border-color: rgba(0, 212, 255, 0.65);
+
+    box-shadow:
+        0 28px 65px rgba(0, 0, 0, 0.30),
+        0 0 32px rgba(0, 212, 255, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+
+/* 01 — GLAVNI PROJEKAT */
+#projekti .project-card.featured {
+    border-color: rgba(0, 212, 255, 0.48) !important;
+
+    box-shadow:
+        0 22px 55px rgba(0, 0, 0, 0.24),
+        0 0 28px rgba(0, 212, 255, 0.10);
+}
+
+
+/* BROJEVI 01 / 02 / 03 */
+#projekti .project-number {
+    font-size: 36px;
+    font-weight: 700;
+
+    color: rgba(89, 225, 255, 0.42);
+
+    letter-spacing: -1px;
+}
+
+
+/* KATEGORIJA */
+#projekti .project-category {
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #4ee7ff;
+}
+
+
+/* NASLOVI */
+#projekti .project-card h3 {
+    font-size: clamp(26px, 2.3vw, 34px) !important;
+    line-height: 1.08;
+
+    margin-top: 22px;
+    margin-bottom: 20px;
+
+    letter-spacing: -0.7px;
+}
+
+
+/* DRUGI RED NASLOVA */
+#projekti .project-card h3 span {
+    font-weight: 400;
+}
+
+
+/* OPIS */
+#projekti .project-card > p {
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: rgba(255, 255, 255, 0.78);
+}
+
+
+/* FLOW: VISION → AI → PLC */
+#projekti .project-flow {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    border-radius: 13px;
+
+    background: rgba(3, 20, 45, 0.35);
+
+    border: 1px solid rgba(255, 255, 255, 0.035);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 8px;
+
+    box-sizing: border-box;
+}
+
+
+/* FLOW TEKST */
+#projekti .project-flow span {
+    font-size: 11px;
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    letter-spacing: 0.4px;
+}
+
+
+/* STRELICE */
+#projekti .project-flow i {
+    color: #36ddff;
+    font-style: normal;
+}
+
+
+/* DONJE OZNAKE */
+#projekti .project-footer {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 16px;
+}
+
+
+/* PILL TAGOVI */
+#projekti .project-footer span {
+    padding: 6px 11px;
+
+    border-radius: 999px;
+
+    font-size: 11px;
+
+    color: #bdf5ff;
+
+    background: rgba(0, 212, 255, 0.09);
+
+    border: 1px solid rgba(0, 212, 255, 0.22);
+}
+
+
+/* IKONICA */
+#projekti .project-icon {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+/* IKONICA REAGUJE NA HOVER */
+#projekti .project-card:hover .project-icon {
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 24px rgba(0, 212, 255, 0.22);
+}
+/* JOŠ MALO VIŠE PROSTORA PRI DNU KARTICA */
+
+@media (min-width: 701px) {
+
+    #projekti .projects-grid {
+        grid-template-rows: 540px !important;
+    }
+
+    #projekti .projects-grid > .project-card,
+    #projekti .projects-grid > .project-card.featured {
+        height: 540px !important;
+        min-height: 540px !important;
+        max-height: 540px !important;
+    }
+}
+@media (min-width: 701px) {
+
+    #projekti .projects-grid {
+        grid-template-rows: 600px !important;
+    }
+
+    #projekti .projects-grid > .project-card,
+    #projekti .projects-grid > .project-card.featured {
+        height: 600px !important;
+        min-height: 600px !important;
+        max-height: 600px !important;
+    }
+}
+/* ISTA VELIČINA TEKSTA NA SVE 3 KARTICE */
+
+#projekti .project-card h3 {
+    font-size: 32px !important;
+}
+
+#projekti .project-card p {
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+}
+
+#projekti .project-category {
+    font-size: 13px !important;
+}
+
+#projekti .project-flow span {
+    font-size: 12px !important;
+}
+
+#projekti .project-footer span {
+    font-size: 11px !important;
+    padding: 5px 10px !important;
+}
+/* Da FLOW stane lepo u sve tri kartice */
+#projekti .project-flow {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 6px !important;
+    padding: 12px 14px !important;
+}
+
+#projekti .project-flow span {
+    font-size: 12px !important;
+    white-space: nowrap !important;
+    flex-shrink: 1 !important;
+}
+
+#projekti .project-flow i {
+    flex-shrink: 0 !important;
+}
+/* PLC kartica – pomeri SENSOR ulevo */
+#projekti .project-card:nth-child(2) .project-flow 
+    /* PLC - da ceo SENSOR → PLC → ACTUATOR stane */
+#projekti .project-card:nth-child(2) .project-flow {
+    position: relative !important;
+    left: -10px !important;
+    width: calc(100% + 20px) !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    gap: 4px !important;
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#projekti .project-card:nth-child(2) .project-flow span {
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+#projekti .project-card:nth-child(2) .project-flow i {
+    margin: 0 2px !important;
+}
+/* Malo šire sve tri kartice */
+@media (min-width: 701px) {
+
+    #projekti .projects-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 14px !important;
+        width: 100% !important;
+        max-width: 1100px !important;
+        margin: 0 auto !important;
+    }
+
+    #projekti .project-card,
+    #projekti .project-card.featured {
+        width: 100% !important;
+        max-width: none !important;
+        box-sizing: border-box !important;
+    }
+}
+@media (min-width: 701px) {
+
+    #projekti .projects-grid {
+        max-width: 1200px !important;
+        width: 96% !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 12px !important;
+        margin: 0 auto !important;
+    }
+
+    #projekti .project-card,
+    #projekti .project-card.featured {
+        width: 100% !important;
+        max-width: none !important;
+        box-sizing: border-box !important;
+    }
+}
+/* ===== FINALNO PORAVNANJE 3 KARTICE ===== */
+
+#projekti .projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+
+    width: 98% !important;
+    max-width: 1350px !important;
+
+    margin: 0 auto !important;
+    gap: 10px !important;
+}
+
+#projekti .project-card,
+#projekti .project-card.featured {
+    width: 100% !important;
+    max-width: none !important;
+
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+/* ŠIRE KARTICE - BEZ PROMENE HTML-a */
+#projekti .projects-grid {
+    width: 98% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+}
+
+#projekti .project-card,
+#projekti .project-card.featured {
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+/* Sredi red SENSOR → PLC → ACTUATOR */
+#projekti .project-flow {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+    gap: 4px !important;
+    white-space: nowrap !important;
+}
+
+#projekti .project-flow span {
+    flex-shrink: 1 !important;
+}
+/* DRUGA KARTICA - naslov PLC automatizacija malo ulevo */
+#projekti .project-card:nth-child(2) h3 {
+    transform: translateX(-12px) !important;
+}
+
+/* Donji red SENSOR → PLC → ACTUATOR takođe ulevo */
+#projekti .project-card:nth-child(2) .project-flow {
+    transform: translateX(-25px) !important;
+    width: calc(100% + 15px) !important;
+}
+/* =========================================
+   TECH STACK
+========================================= */
+
+#tehnologije {
+    padding: 90px 40px 100px !important;
+    background: #f6f9fc !important;
+    box-sizing: border-box;
+}
+
+#tehnologije .tech-container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* NASLOV */
+
+#tehnologije .tech-heading {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+}
+
+#tehnologije .tech-label {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    color: #008fca;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#tehnologije .tech-heading h2 {
+    margin: 0 0 18px;
+
+    color: #092f53;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#tehnologije .tech-heading p {
+    margin: 0 auto;
+
+    color: #63798c;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* TEHNOLOGIJE */
+
+#tehnologije .tech-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+
+    gap: 16px !important;
+
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#tehnologije .tech-item {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+
+    padding: 16px 24px;
+
+    background: #ffffff;
+    color: #163d5e;
+
+    border: 1px solid rgba(0, 150, 210, 0.18);
+    border-radius: 50px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    box-shadow: 0 8px 25px rgba(10, 55, 90, 0.08);
+
+    transition: 0.3s ease;
+}
+
+#tehnologije .tech-dot {
+    display: block;
+
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #00b9e8;
+
+    box-shadow: 0 0 8px rgba(0, 185, 232, 0.6);
+}
+
+#tehnologije .tech-item:hover {
+    transform: translateY(-5px);
+
+    border-color: #00b9e8;
+
+    box-shadow: 0 14px 30px rgba(0, 130, 190, 0.14);
+}
+
+
+/* TELEFON */
+
+@media (max-width: 700px) {
+
+    #tehnologije {
+        padding: 70px 20px 80px !important;
+    }
+
+    #tehnologije .tech-heading h2 {
+        font-size: 34px;
+    }
+
+    #tehnologije .tech-item {
+        padding: 13px 18px;
+        font-size: 14px;
+    }
+}
+/* TECH STACK - razmak između oznake i naslova */
+
+#tehnologije .tech-label {
+    display: block !important;
+    width: fit-content !important;
+    margin: 0 auto 32px auto !important;
+}
+
+#tehnologije .tech-heading h2 {
+    margin-top: 0 !important;
+}
+/* POPRAVKA TECH STACK NASLOVA */
+
+#tehnologije .tech-heading {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+#tehnologije .tech-label {
+    position: static !important;
+    transform: none !important;
+
+    display: inline-block !important;
+    width: auto !important;
+
+    margin: 0 0 22px 0 !important;
+}
+
+#tehnologije .tech-heading h2 {
+    position: static !important;
+    transform: none !important;
+
+    width: 100% !important;
+    margin: 0 0 18px 0 !important;
+
+    text-align: center !important;
+}
+/* =========================================
+   CONTACT - FINAL STYLE
+========================================= */
+
+#kontakt {
+    position: relative !important;
+    overflow: hidden !important;
+
+    padding: 100px 30px 110px !important;
+
+    text-align: center !important;
+
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgba(0, 190, 255, 0.18),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #071d36 0%,
+            #092e55 50%,
+            #061b32 100%
+        ) !important;
+}
+
+
+/* NASLOV */
+
+#kontakt h2 {
+    margin: 0 0 22px !important;
+
+    color: #ffffff !important;
+
+    font-size: 46px !important;
+    font-weight: 700 !important;
+    letter-spacing: -1px !important;
+}
+
+
+/* TEKST */
+
+#kontakt .contact-text {
+    max-width: 720px !important;
+
+    margin: 0 auto 42px !important;
+
+    color: rgba(255,255,255,0.78) !important;
+
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+
+    text-align: center !important;
+}
+
+
+/* DUGMAD */
+
+#kontakt .contact-links {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    gap: 18px !important;
+
+    flex-wrap: wrap !important;
+}
+
+
+#kontakt .contact-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    width: 165px !important;
+    height: 54px !important;
+
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 50px !important;
+
+    border: 1px solid rgba(0, 205, 255, 0.45) !important;
+
+    background: rgba(255,255,255,0.05) !important;
+
+    color: #ffffff !important;
+
+    font-size: 16px !important;
+    font-weight: 600 !important;
+
+    text-decoration: none !important;
+
+    transition: 0.3s ease !important;
+}
+
+
+/* HOVER */
+
+#kontakt .contact-btn:hover {
+    transform: translateY(-4px) !important;
+
+    background: #00bce8 !important;
+
+    color: #061b32 !important;
+
+    border-color: #00bce8 !important;
+
+    box-shadow:
+        0 10px 30px rgba(0, 188, 232, 0.28) !important;
+}
+
+
+/* TELEFON */
+
+@media (max-width: 650px) {
+
+    #kontakt {
+        padding: 75px 20px 85px !important;
+    }
+
+    #kontakt h2 {
+        font-size: 38px !important;
+    }
+
+    #kontakt .contact-text {
+        font-size: 16px !important;
+    }
+
+    #kontakt .contact-links {
+        gap: 12px !important;
+    }
+}
+/* UKLANJANJE HORIZONTALNOG SCROLLA */
+
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+/* =========================================
+   MOBILNA VERZIJA
+========================================= */
+
+@media (max-width: 700px) {
+
+    /* NAVIGACIJA */
+    nav {
+        padding: 15px 18px !important;
+    }
+
+    nav ul {
+        gap: 14px !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    nav a {
+        font-size: 13px !important;
+    }
+
+    /* POČETNA */
+    #pocetna {
+        padding: 75px 24px 55px !important;
+        min-height: auto !important;
+    }
+
+    #pocetna .hero-container {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    #pocetna .hero-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left !important;
+    }
+
+    #pocetna h1 {
+        font-size: 42px !important;
+        line-height: 1.05 !important;
+    }
+
+    #pocetna h2 {
+        font-size: 23px !important;
+    }
+
+    #pocetna p {
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+    }
+
+    /* DESNA AI GRAFIKA */
+    #pocetna .hero-visual {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 330px !important;
+        margin: 45px auto 0 !important;
+        transform: none !important;
+        right: auto !important;
+        left: auto !important;
+    }
+
+    /* DUGMAD */
+    #pocetna .hero-buttons {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+    }
+}
+/* =========================================
+   MOBILNO - O MENI + PROJEKTI
+========================================= */
+
+@media (max-width: 700px) {
+
+    /* O MENI */
+    #omeni {
+        padding: 65px 22px !important;
+    }
+
+    #omeni .about-container {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    #omeni .about-content,
+    #omeni .about-text {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    #omeni .about-grid,
+    #omeni .about-cards {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        margin-top: 35px !important;
+    }
+
+
+    /* PROJEKTI */
+    #projekti .projects-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+
+        width: 100% !important;
+        max-width: 420px !important;
+
+        margin: 0 auto !important;
+        gap: 22px !important;
+        padding: 0 !important;
+    }
+
+    /* SVE TRI KARTICE JEDNA ISPOD DRUGE */
+    #projekti .project-card,
+    #projekti .project-card.featured {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        height: auto !important;
+        min-height: 0 !important;
+
+        margin: 0 !important;
+        transform: none !important;
+
+        padding: 28px 24px !important;
+        box-sizing: border-box !important;
+    }
+
+    /* PONIŠTAVAMO DESKTOP POMERANJE PRVE */
+    #projekti .project-card:nth-child(1) {
+        transform: none !important;
+    }
+
+    /* PONIŠTAVAMO POMERANJE DRUGE */
+    #projekti .project-card:nth-child(2) h3,
+    #projekti .project-card:nth-child(2) .project-flow {
+        transform: none !important;
+    }
+
+    #projekti .project-card:nth-child(2) .project-flow {
+        width: 100% !important;
+    }
+}
+/* =========================================
+   MOBILNO - TECH STACK + KONTAKT
+========================================= */
+
+@media (max-width: 700px) {
+
+    /* ---------- TECH STACK ---------- */
+
+    #tehnologije {
+        padding: 65px 20px 75px !important;
+    }
+
+    #tehnologije .tech-heading {
+        width: 100% !important;
+        margin-bottom: 38px !important;
+    }
+
+    #tehnologije .tech-label {
+        margin: 0 auto 18px !important;
+    }
+
+    #tehnologije .tech-heading h2 {
+        font-size: 34px !important;
+        line-height: 1.15 !important;
+        text-align: center !important;
+    }
+
+    #tehnologije .tech-heading p {
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+        text-align: center !important;
+    }
+
+    #tehnologije .tech-list {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+
+        width: 100% !important;
+        gap: 10px !important;
+    }
+
+    #tehnologije .tech-item {
+        width: 100% !important;
+        min-width: 0 !important;
+
+        padding: 13px 12px !important;
+
+        justify-content: center !important;
+
+        font-size: 13px !important;
+        text-align: center !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* ---------- KONTAKT ---------- */
+
+    #kontakt {
+        padding: 70px 22px 80px !important;
+    }
+
+    #kontakt h2 {
+        font-size: 36px !important;
+        margin-bottom: 18px !important;
+    }
+
+    #kontakt .contact-text {
+        max-width: 100% !important;
+
+        margin-bottom: 32px !important;
+
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+    }
+
+    #kontakt .contact-links {
+        display: flex !important;
+        flex-direction: column !important;
+
+        align-items: center !important;
+
+        gap: 12px !important;
+    }
+
+    #kontakt .contact-btn {
+        width: 100% !important;
+        max-width: 260px !important;
+
+        height: 52px !important;
+    }
+}
